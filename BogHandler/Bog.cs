@@ -11,11 +11,13 @@ namespace BogHandler
         public string Title { get; set; }
         public string Forfatter { get; set; }
         public int AntalSider { get; set; }
-        public Bog(string title, string forfatter, int antalSider)
+        public int Nr { get; set; }
+        public Bog(string title, string forfatter, int antalSider, int nr)
         {
             Title = title;
             Forfatter = forfatter;
             AntalSider = antalSider;
+            Nr = nr;
         }
     }
 }

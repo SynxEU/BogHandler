@@ -8,10 +8,10 @@ namespace BogHandler
 {
     class Boghandler
     {
-        public string Sælg(string title, string forfatter, int antalSider)
+        public string Sælg(string title, string forfatter, int antalSider, int nr)
         {
-            Bog bog = new Bog(title, forfatter, antalSider);
-            return $"Titel: {title} - Forfatter: {forfatter} - {antalSider} sider";
+            Bog bog = new Bog(title, forfatter, antalSider, nr);
+            return $"Bog Nummer: {nr} - Titel: {title} - Forfatter: {forfatter} - {antalSider} sider";
         }
     }
 }
