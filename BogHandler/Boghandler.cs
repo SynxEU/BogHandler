@@ -11,7 +11,7 @@ namespace BogHandler
         public string Sælg(string title, string forfatter, int antalSider)
         {
             Bog bog = new Bog(title, forfatter, antalSider);
-            return $"Title: {title} - Forfatter: {forfatter} - {antalSider} sider";
+            return $"Titel: {title} - Forfatter: {forfatter} - {antalSider} sider";
         }
     }
 }
